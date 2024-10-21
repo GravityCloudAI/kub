@@ -1,0 +1,52 @@
+.log {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    /* padding-bottom: 0.2rem; */
+    /* margin-top: -10rem; */
+    transition: background-color 0.1s;
+}
+
+.log:hover {
+    background: #272937;
+    border: 1px solid #26282d;
+    border-radius: 8px;
+    z-index: 99;
+}
+
+.codeClass {
+    font-size: 10px;
+    padding: 24px !important;
+    background: #383B4E !important;
+    border-radius: "0.75rem";
+    max-width: 90% !important;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    /* overflow: hidden; */
+}
+
+.codeClass::-webkit-scrollbar {
+    display: none;
+}
+
+.logsClass {
+    font-size: 12px;
+    padding: 24px !important;
+    background: #383B4E !important;
+    border-radius: "0.75rem";
+    max-width: 100% !important;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    /* overflow: hidden; */
+}
+
+.logsClass code {
+    white-space: pre-wrap !important;
+    overflow-x: hidden !important;
+    word-wrap: break-word !important;
+  }
+
+.logsClass::-webkit-scrollbar {
+    display: none;
+}
